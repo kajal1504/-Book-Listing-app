@@ -1,0 +1,38 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\kajal\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.3
+2 info using node@v22.11.0
+3 silly config load:file:C:\Users\kajal\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:E:\Assignment\MyPustak Developer Test Assignment\.npmrc
+5 silly config load:file:C:\Users\kajal\.npmrc
+6 silly config load:file:C:\Users\kajal\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm create vite@latest frontend
+8 verbose argv "create" "vite@latest" "frontend"
+9 verbose logfile logs-max:10 dir:E:\Assignment\MyPustak Developer Test Assignment\path\to\another\directory\.npm-cache\_logs\2025-07-15T07_19_59_337Z-
+10 verbose logfile E:\Assignment\MyPustak Developer Test Assignment\path\to\another\directory\.npm-cache\_logs\2025-07-15T07_19_59_337Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 http fetch GET 200 https://registry.npmjs.org/create-vite 315ms (cache revalidated)
+14 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+15 silly idealTree buildDeps
+16 silly fetch manifest create-vite@7.0.3
+17 silly packumentCache full:https://registry.npmjs.org/create-vite cache-miss
+18 http fetch GET 200 https://registry.npmjs.org/create-vite 300ms (cache miss)
+19 silly packumentCache full:https://registry.npmjs.org/create-vite set size:undefined disposed:false
+20 silly placeDep ROOT create-vite@7.0.3 OK for:  want: 7.0.3
+21 warn EBADENGINE Unsupported engine {
+21 warn EBADENGINE   package: 'create-vite@7.0.3',
+21 warn EBADENGINE   required: { node: '^20.19.0 || >=22.12.0' },
+21 warn EBADENGINE   current: { node: 'v22.11.0', npm: '10.8.3' }
+21 warn EBADENGINE }
+22 silly reify moves {}
+23 silly audit bulk request { 'create-vite': [ '7.0.3' ] }
+24 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-7.0.3.tgz. Extracting by manifest.
+25 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 318ms
+26 silly audit report {}
+27 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-7.0.3.tgz 464ms (cache miss)
+28 verbose cwd E:\Assignment\MyPustak Developer Test Assignment
+29 verbose os Windows_NT 10.0.26100
+30 verbose node v22.11.0
+31 verbose npm  v10.8.3
+32 verbose exit 0
+33 info ok

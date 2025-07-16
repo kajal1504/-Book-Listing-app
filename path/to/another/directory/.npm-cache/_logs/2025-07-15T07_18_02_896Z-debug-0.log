@@ -1,0 +1,36 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\kajal\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.3
+2 info using node@v22.11.0
+3 silly config load:file:C:\Users\kajal\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:E:\Assignment\MyPustak Developer Test Assignment\.npmrc
+5 silly config load:file:C:\Users\kajal\.npmrc
+6 silly config load:file:C:\Users\kajal\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm create vite@latest my-projectcls
+8 verbose argv "create" "vite@latest" "my-projectcls"
+9 verbose logfile logs-max:10 dir:E:\Assignment\MyPustak Developer Test Assignment\path\to\another\directory\.npm-cache\_logs\2025-07-15T07_18_02_896Z-
+10 verbose logfile E:\Assignment\MyPustak Developer Test Assignment\path\to\another\directory\.npm-cache\_logs\2025-07-15T07_18_02_896Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 http fetch GET 200 https://registry.npmjs.org/npm 336ms
+14 http fetch GET 200 https://registry.npmjs.org/create-vite 263ms (cache miss)
+15 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+16 verbose stack Error: canceled
+16 verbose stack     at exec (C:\Users\kajal\AppData\Roaming\npm\node_modules\npm\node_modules\libnpmexec\lib\index.js:286:19)
+16 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+16 verbose stack     at async Init.execCreate (C:\Users\kajal\AppData\Roaming\npm\node_modules\npm\lib\commands\init.js:135:5)
+16 verbose stack     at async Init.exec (C:\Users\kajal\AppData\Roaming\npm\node_modules\npm\lib\commands\init.js:44:14)
+16 verbose stack     at async Npm.exec (C:\Users\kajal\AppData\Roaming\npm\node_modules\npm\lib\npm.js:207:9)
+16 verbose stack     at async module.exports (C:\Users\kajal\AppData\Roaming\npm\node_modules\npm\lib\cli\entry.js:74:5)
+17 error canceled
+18 verbose cwd E:\Assignment\MyPustak Developer Test Assignment
+19 verbose os Windows_NT 10.0.26100
+20 verbose node v22.11.0
+21 verbose npm  v10.8.3
+22 notice
+22 notice New [31mmajor[39m version of npm available! [31m10.8.3[39m -> [34m11.4.2[39m
+22 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.4.2[39m
+22 notice To update run: [4mnpm install -g npm@11.4.2[24m
+22 notice  { force: true, [Symbol(proc-log.meta)]: true }
+23 verbose exit 1
+24 verbose code 1
+25 error A complete log of this run can be found in: E:\Assignment\MyPustak Developer Test Assignment\path\to\another\directory\.npm-cache\_logs\2025-07-15T07_18_02_896Z-debug-0.log
